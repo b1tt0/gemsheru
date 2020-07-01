@@ -1,8 +1,9 @@
+#!/usr/lib/ruby
 # gemsheru, b1tt 2020
 # List of colour codes
 
 module Gemsheru module Const 
-  @colours = {
+  @colour = {
     "fg" => { # Foreground (text)
       "red"     => "\u001b[31m", "green" => "\u001b[32m",
       "yellow"  => "\u001b[33m", "blue"  => "\u001b[34m",
@@ -17,9 +18,7 @@ module Gemsheru module Const
     }
   }
 # Making colours accessible
-  def self.colours
-    @colours
+  def self.colour
+    @colour
   end
 end             end
-
-print "#{Gemsheru::Const.colours["bg"]["red"]}hi"

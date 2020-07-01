@@ -1,3 +1,4 @@
+#!/usr/lib/ruby
 # gemsheru, b1tt 2020
 # Terminal info
 
