@@ -16,8 +16,7 @@ Currently, you can't use this as a gem, and you have to clone this repo. See ins
 ### Git
 1. Clone this repository using `git clone https://github.com/b1tt0/gemsheru.git`
 2. Place it in your project folder
-3. If you wanna use any of it's features, add ```ruby
-require_relative "gemsheru/gemsheru"``` to any file.
+3. If you wanna use any of it's features, add `require_relative "gemsheru/gemsheru"` to any file.
 
 ## Warning
 This project is **work in progress**, meaning some features are not yet implemented.
