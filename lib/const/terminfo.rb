@@ -10,7 +10,7 @@ module Gemsheru module Const module Terminal
     "y" => IO.console.winsize[0]
   }
 # Make size accessible
-  def size
+  def self.size
     @size
   end
 end             end          end

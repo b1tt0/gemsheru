@@ -9,6 +9,9 @@ require_relative "const/terminfo"
 require_relative "input/char"
 require_relative "input/str"
 
+# Util fnctions
+require_relative "defs/checksize"
+
 module Gemsheru
   @VERSION = "0.0.1" # Gemsheru version
   def self.version
