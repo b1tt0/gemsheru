@@ -1,3 +1,4 @@
+#!/usr/lib/ruby
 # Gemsheru, b1tt 2020
 # Main file
 
@@ -16,5 +17,12 @@ module Gemsheru
   @VERSION = "0.0.1" # Gemsheru version
   def self.version
     @VERSION
+  end
+  def self.quit # Safe exit
+    begin
+      exit
+    rescue SystemExit
+      print Gemsheru::Const.colour["reset"]
+    end
   end
 end

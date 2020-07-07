@@ -1,5 +1,4 @@
-#!/usr/lib/ruby
-# gemsheru, b1tt 2020
+# Gemsheru, b1tt 2020
 # Terminal info
 
 require "io/console"

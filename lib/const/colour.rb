@@ -1,5 +1,4 @@
-#!/usr/lib/ruby
-# gemsheru, b1tt 2020
+# Gemsheru, b1tt 2020
 # List of colour codes
 
 module Gemsheru module Const 
@@ -15,7 +14,8 @@ module Gemsheru module Const
       "yellow"  => "\u001b[43m", "blue"  => "\u001b[44m",
       "magenta" => "\u001b[45m", "cyan"  => "\u001b[46m",
       "white"   => "\u001b[47m", "black" => "\u001b[40m"
-    }
+    },
+    "reset" => "\u001b[0m"
   }
 # Making colours accessible
   def self.colour

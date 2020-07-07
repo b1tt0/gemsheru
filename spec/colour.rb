@@ -5,3 +5,5 @@ require_relative "../lib/gemsheru"
 
 print "#{Gemsheru::Const.colour["bg"]["red"] }Hello "
 print "#{Gemsheru::Const.colour["bg"]["blue"]}World!"
+
+Gemsheru.quit
