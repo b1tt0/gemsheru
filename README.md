@@ -18,5 +18,8 @@ Currently, you can't use this as a gem, and you have to clone this repo. See ins
 2. Place it in your project folder
 3. If you wanna use any of it's features, add `require_relative "gemsheru/lib/gemsheru"` to any file.
 
+## Documentation
+You can find all Gemsheru documentation in [Wiki](https://github.com/b1tt0/gemsheru/wiki).
+
 ## Warning
 This project is **work in progress**, meaning some features are not yet implemented.

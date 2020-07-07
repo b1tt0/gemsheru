@@ -13,16 +13,12 @@ require_relative "input/str"
 # Util fnctions
 require_relative "defs/checksize"
 
+# Other
+require_relative "loop"
+
 module Gemsheru
   @VERSION = "0.0.1" # Gemsheru version
   def self.version
     @VERSION
-  end
-  def self.quit # Safe exit
-    begin
-      exit
-    rescue SystemExit
-      print Gemsheru::Const.colour["reset"]
-    end
   end
 end
