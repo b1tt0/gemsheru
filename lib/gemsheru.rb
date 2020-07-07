@@ -6,6 +6,9 @@
 require_relative "const/colour"
 require_relative "const/terminfo"
 
+# Output
+require_relative "output/refresh"
+
 # Input
 require_relative "input/char"
 require_relative "input/str"

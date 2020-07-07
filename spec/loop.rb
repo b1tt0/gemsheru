@@ -15,7 +15,7 @@ colours = [
 index = 0
 
 Gemsheru.eachframe(15) do |frame|
-  print colours[index] + "Rainbow!\r"
+  Gemsheru::Output.refresh("Rainbow!", colours[index])
   index += 1 if index <= 5
   index = 0  if index >  5
 end
