@@ -12,11 +12,14 @@ Game framework for making console games on Ruby.
 * Mouse support (???)
 
 ## Usage
-Currently, you can't use this as a gem, and you have to clone this repo. See instructions below.
 ### Git
 1. Clone this repository using `git clone https://github.com/b1tt0/gemsheru.git`
 2. Place it in your project folder
 3. If you wanna use any of it's features, add `require_relative "gemsheru/lib/gemsheru"` to any file.
+### Gem
+1. Install the newest release in [releases](https://github.com/b1tt0/gemsheru/releases).
+2. Run `gem install /path/to/gem/file`
+3. At the start of each file add `require "gemsheru"`
 
 ## Documentation
 You can find all Gemsheru documentation in [Wiki](https://github.com/b1tt0/gemsheru/wiki).

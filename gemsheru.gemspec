@@ -7,4 +7,5 @@ Gem::Specification.new do |gem|
   gem.authors     = ["b1tt"]
   gem.homepage    = "https://b1tt0.github.io/gemsheru"
   gem.license     = "MIT"
+  gem.files       = ["lib/gemsheru.rb"]
 end
